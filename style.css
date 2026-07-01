@@ -84,7 +84,7 @@ body::-webkit-scrollbar {
 #fanta{
     position: absolute;
     width: 40%;
-    z-index: 2;
+    z-index: 9999;
 }
 
 #laranja-cortada{
@@ -109,6 +109,7 @@ body::-webkit-scrollbar {
     width: 18%;
     transform: rotate(60deg);
     position: absolute;
+    z-index: 9997;
 }
 
 #folha2{
@@ -214,6 +215,7 @@ body::-webkit-scrollbar {
     width: 100%;
     left: 50%;
     transform: translate(-50%, 0%);
+    z-index: 9999;
 }
 
 #pepsi{
@@ -222,6 +224,7 @@ body::-webkit-scrollbar {
     width: 100%;
     left: 50%;
     transform: translate(-50%, 0%);
+    z-index: 9999;
 }
 
 .lemon{
@@ -230,6 +233,7 @@ body::-webkit-scrollbar {
     width: 25vw;
     left: 50%;
     transform: translate(-50%, 0%);
+    z-index: 9999;
 }
 
 .four{
@@ -247,26 +251,30 @@ body::-webkit-scrollbar {
     /* 5% da tela */
     color: rgb(255, 255, 255);
     margin-top: 10vh;
+    z-index: 9998;
     
 }
 
 #Tcoca{
     position: absolute;
-    height: 40%;
-    margin-top: 50vh;
-    left: 2%;
+    height: 50%;
+    margin-top: 30vh;
+    left: 20%;
+    z-index: 9998;
 }
 
 #Tfanta{
     position: absolute;
-    height: 40%;
-    margin-top: 50vh;
-    right: 36%;
+    height: 50%;
+    margin-top: 30vh;
+    right: 35%;
+    z-index: 9998;
 }
 
 #Tpepsi{
     position: absolute;
-    height: 40%;
-    margin-top: 50vh;
+    height: 50%;
+    margin-top: 30vh;
     right: 5%;
+    z-index: 9998;
 }
